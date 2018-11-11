@@ -1,2 +1,4 @@
 cmake/modules/* linguist-vendored=true
 doc/* linguist-vendored=true
+*.h linguist-language=C
+*.c linguist-language=C

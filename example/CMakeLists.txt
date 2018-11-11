@@ -18,7 +18,7 @@ set(APP_SOURCE_FILES
 
 include_directories(${APP_INCLUDE_DIRS})
 
-add_executable(${PROJECT_NAME} ${APP_SOURCE_FILES} ${APP_HEADER_FILES})
+add_executable(${PROJECT_NAME} WIN32 ${APP_SOURCE_FILES} ${APP_HEADER_FILES})
 target_link_libraries(${PROJECT_NAME} ${ENGINE_NAME})
 
 find_package(SDL2 REQUIRED)
