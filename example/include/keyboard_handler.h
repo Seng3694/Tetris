@@ -14,7 +14,7 @@ typedef struct
 	Uint8 before[SDL_NUM_SCANCODES];
 } KeyboardHandler;
 
-KeyboardHandler* KeyboardHandler_Create();
+KeyboardHandler* KeyboardHandler_Create(void);
 void KeyboardHandler_Destroy(KeyboardHandler* handler);
 
 void KeyboardHandler_HandleEvent(KeyboardHandler* handler, const SDL_Event* event);

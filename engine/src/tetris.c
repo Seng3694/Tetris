@@ -1,6 +1,6 @@
 #include "tetris.h"
 
-Tetris* Tetris_Create()
+Tetris* Tetris_Create(void)
 {
 	Tetris* tetris = malloc(sizeof(Tetris));
 	tetris->lockElapsed = 0;

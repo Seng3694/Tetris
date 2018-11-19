@@ -11,7 +11,7 @@ typedef struct
 	Uint64 last;
 } Clock;
 
-Clock* Clock_Create();
+Clock* Clock_Create(void);
 void Clock_Destroy(Clock* clock);
 
 void Clock_Update(Clock* clock);

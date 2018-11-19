@@ -1,7 +1,7 @@
 #include "spawn_bag.h"
 
 
-SpawnBag* SpawnBag_Create()
+SpawnBag* SpawnBag_Create(void)
 {
 	SpawnBag* bag = malloc(sizeof(SpawnBag));
 	bag->index = 0;

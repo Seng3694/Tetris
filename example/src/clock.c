@@ -1,6 +1,6 @@
 #include "clock.h"
 
-Clock* Clock_Create()
+Clock* Clock_Create(void)
 {
 	Clock* clock = malloc(sizeof(Clock));
 	clock->last = 0;

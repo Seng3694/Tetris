@@ -51,7 +51,7 @@ typedef struct
 * \return The created tetris game.
 * \sa     Tetris_Destroy()
 */
-Tetris* Tetris_Create();
+Tetris* Tetris_Create(void);
 
 /**
 * \brief        Destroys the tetris game.

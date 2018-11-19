@@ -1,6 +1,6 @@
 #include "keyboard_handler.h"
 
-KeyboardHandler* KeyboardHandler_Create()
+KeyboardHandler* KeyboardHandler_Create(void)
 {
 	KeyboardHandler* handler = malloc(sizeof(KeyboardHandler));
 	handler->keyDownDelayElapsed = 0;

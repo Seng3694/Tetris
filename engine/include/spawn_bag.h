@@ -26,7 +26,7 @@ typedef struct
 * \return The created bag.
 * \sa     SpawnBag_Destroy()
 */
-SpawnBag* SpawnBag_Create();
+SpawnBag* SpawnBag_Create(void);
 
 /**
 * \brief      Destroys a new bag.

@@ -49,7 +49,7 @@ typedef struct
 * \return The created map.
 * \sa	  Map_Destroy()
 */
-Map* Map_Create();
+Map* Map_Create(void);
 
 /**
 * \brief	  Destroys a map.

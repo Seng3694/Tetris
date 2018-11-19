@@ -1,6 +1,6 @@
 #include "map.h"
 
-Map* Map_Create()
+Map* Map_Create(void)
 {
 	Map* map = malloc(sizeof(Map));
 	map->data = calloc(MAP_WIDTH * MAP_HEIGHT, sizeof(sbyte));
